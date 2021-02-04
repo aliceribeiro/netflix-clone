@@ -1,0 +1,41 @@
+
+:root {
+  --cor-principal: #141414;
+  --cor-secundaria: #E50914;
+  --cor-texto: #AAA;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: var(--cor-principal);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+header .container {
+  display: flex;
+  align-items: center; 
+  justify-content: space-between;
+}
+
+header .logo {
+  color: var(--cor-secundaria);
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 40px;
+  letter-spacing: 4px;
+  margin-left: 10px;
+}
+
+header nav a {
+  text-decoration: none;
+  color: var(--cor-texto);
+  margin-right: 10px;
+}
+
+header nav a:hover {
+  color: #F4F4F4;
+}
