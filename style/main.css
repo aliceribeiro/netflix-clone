@@ -95,3 +95,9 @@ header nav a:hover {
 .destaque .botao i {
   margin-right: 8px;
 }
+
+.poster {
+  height: 100%;
+  width: 100%;
+  display: block;
+}
