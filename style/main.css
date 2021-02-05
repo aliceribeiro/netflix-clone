@@ -96,6 +96,10 @@ header nav a:hover {
   margin-right: 8px;
 }
 
+.carrosel {
+  margin-top: 5px;
+}
+
 .poster {
   height: 100%;
   width: 100%;
